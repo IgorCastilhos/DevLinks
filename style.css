@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; */
+
+  /* Shorthand/Agrupamento - background: color image repeat position/size*/
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+#container {
+  width: 22.5rem;
+  border: 1px solid red;
+  margin: 56px auto 0px;
+}
+
+#profile {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+#profile img {
+  width: 7rem;
+}
+
+#profile p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-top: 0.5rem;
+}
