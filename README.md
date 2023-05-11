@@ -19,7 +19,7 @@ Programa exclusivo e gratuito, promovido para ensino de tecnologias WEB. <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
+  <img alt="projeto DevLinks" src=".github/Preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
