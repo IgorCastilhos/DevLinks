@@ -41,6 +41,7 @@ body * {
 
 #container {
   width: 100%;
+  height: 100vh;
   max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
@@ -176,4 +177,16 @@ footer {
   text-align: center;
 
   font-size: 14px;
+}
+
+/* media queries */
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-light.jpg);
+  }
 }
